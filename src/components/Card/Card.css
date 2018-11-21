@@ -1,0 +1,99 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  /* animation: App-logo-spin infinite 20s linear; */
+  height: 20vmin;
+  width: 20vmin;
+  margin: 20px auto;
+  border-radius: 100%;
+}
+
+.App-header {
+  background: url('./great.jpg') !important;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.search-area {
+  margin: 0px auto;
+  position: relative;
+  top: -30px;
+}
+
+
+.github {
+  color: #000;
+  background: #fff;
+  padding: 5px; 
+}
+
+.resultData {
+  color: #000;
+  font-family: 'Signika', sans-serif;
+  padding: 10px 20px 10px 20px;
+}
+.portfolio {
+  font-weight: 800;
+  text-align: left;
+  display: inline;
+}
+
+.portfolio span {
+  text-align: right;
+}
+
+.mdc-card.card-1 {
+  box-shadow: 0px 15px 25px -5px #000; 
+}
+
+
+
+.text-search {
+  background: rgba(0, 0, 0, 0.438);
+  border:  5px solid rgb(66, 66, 66);
+  border-radius: 5px;
+  height: 50px;
+  max-width: 500px;
+  width: 400px;
+  font-size: 30px;
+  padding: 0% 0% 0% 2%;
+  color: #fff;
+  outline: none;
+}
+
+.text-search::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: rgb(109, 107, 107);
+  font-size: 20px;
+  padding: 0% 0% 0% 2%;
+
+}
+.text-search::-moz-placeholder { /* Firefox 19+ */
+  color: rgb(182, 181, 181);
+  font-size: 20px;
+  padding: 0% 0% 0% 3%;
+}
+
+
+@media only screen and (max-width: 500px) {
+
+  .text-search::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    font-size: 15px;
+  
+  }
+  .text-search::-moz-placeholder { /* Firefox 19+ */
+    font-size: 15px;
+  }
+  
+.text-search {
+  font-size: 16px;
+}
+
+}
+
